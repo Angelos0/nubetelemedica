@@ -1,0 +1,10 @@
+HISTORIA MEDICA 1 
+
+paciente> JUAN
+
+ caso medico> rehabiitacion
+
+EStado de avance de mejora> 80%
+
+
+ 

@@ -1,0 +1,31 @@
+#email, #username, #password {
+	width: 223px !important;
+	padding-left: 36px !important;
+}
+#email-icon, #username-icon, #password-icon {
+	position: absolute;
+	left: 16px;
+	top: 22px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: .3;
+}
+#body-login input[type="email"] {
+	width: 249px;
+}
+#username-icon {
+	top: 17px;
+}
+
+.msg {
+	color: white;
+	margin: 5px;
+}
+.msg a {
+	color: white;
+	text-decoration: underline;
+}
+
+.groupofone {
+	position: relative;
+}

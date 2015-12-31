@@ -1,0 +1,61 @@
+#ownbackup-backup-tables-block {
+	display: none;
+	margin: 10px 0;
+}
+
+#ownbackup-backup-date-select {
+	width: 250px;
+}
+
+#ownbackup-backup-tables-select {
+	width: 300px;
+	height: auto;
+}
+
+#ownbackup .box {
+	margin: 10px 0;
+}
+
+#ownbackup button.icon-button {
+	padding: 4px;
+	position: relative;
+	top: 1px;
+}
+
+#ownbackup button.icon-button span {
+	display: inline-block;
+	position: relative;
+	top: 2px;
+}
+
+#ownbackup .message-box {
+	padding: 20px;
+	top: 40%;
+	left: 40%;
+	position: fixed;
+	background-color: #F5F5F5;
+	display: none;
+	border: 2px dashed #333;
+	z-index:6;
+}
+
+#ownbackup .message-box h3 {
+	font-size: 1.6em;
+	margin-bottom: 30px;
+}
+
+#ownbackup .wait-spinner {
+	height: 32px;
+	margin-top: 10px;
+}
+
+#ownbackup-cover {
+	position:fixed;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.2);
+	z-index:5;
+	width:100%;
+	height:100%;
+	display:none;
+}

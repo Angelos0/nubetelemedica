@@ -1,0 +1,10 @@
+HISTORIA MEDICA 1 
+
+paciente> ANGEL
+
+ caso medico> RAYOS X
+
+EStado de avance de mejora> 80%
+
+
+ 

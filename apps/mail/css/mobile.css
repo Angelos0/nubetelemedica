@@ -1,0 +1,75 @@
+@media only screen and (max-width: 768px) {
+
+/* full width for message list on mobile */
+#mail_messages {
+	width: 100%;
+}
+
+/* overlay message detail on top of message list */
+#mail-message {
+	z-index: 100;
+	background: #fff;
+	width: 100%;
+	left: 0;
+	height: 100%;
+	top: 0;
+	box-shadow: 0 0 100px rgba(100, 100, 100, .9);
+}
+
+#mail-message-close {
+	display: block;
+	position: fixed;
+	right: 0;
+	top: 45px;
+	width: 44px;
+	height: 44px;
+	background-size: 24px;
+	z-index: 101;
+	cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	opacity: .4;
+}
+#mail-message-close:hover,
+#mail-message-close:focus {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	opacity: .6;
+}
+
+.hidden-mobile {
+	display: none;
+}
+
+/* make header scroll away on mobile */
+#mail-message-header {
+	position: relative;
+	width: initial;
+	height: 100px;
+}
+.mail-message-body {
+	margin: 0 10px 50px 30px;
+}
+
+/* make sure text fields occupy full width */
+.composer-fields,
+
+/* position attachment picker below message fields */
+#new-message-attachments {
+	position: relative;
+	margin: 0;
+	width: 100%;
+}
+
+/* do not display date in message list because there is too little space */
+.date {
+	display: none;
+}
+/* more space for sender accordingly */
+.mail_message_summary_from {
+	width: 80%;
+}
+.mail_message_summary_subject {
+	width: 80%;
+}
+
+/* end of media query */
+}
